@@ -19,7 +19,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,
 random_state=42)
 # Определите параметры модели для логирования
 params = {
- "solver": "lbfgs",
+ "solver": "liblinear",
  "max_iter": 1000,
  "multi_class": "auto",
  "random_state": 42
